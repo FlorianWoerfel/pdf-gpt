@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: pdf-chatGPT
+    environment:
+      - OPENAI_API_KEY=<place your api key here and delete it after building>
+      
+    command: jupyter lab --ip=0.0.0.0 --no-browser --allow-root
+    ports:
+      - 8888:8888
+
+    volumes:
+      - .:/code

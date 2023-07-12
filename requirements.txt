@@ -1,0 +1,25 @@
+# Base 
+# jupyter
+jupyterlab
+
+# Data & Visualization
+matplotlib
+numpy
+pandas
+
+
+# Excel Extractors
+openpyxl
+xlrd
+
+# Useful packages
+cython
+pytest
+requests
+
+# pdf parser
+PyPDF2
+
+# openai api
+openai  
+
