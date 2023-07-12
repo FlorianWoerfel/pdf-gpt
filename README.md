@@ -42,5 +42,5 @@ To restart you container run:
 It is important that you start the container in "attached" mode (*-a*).This way you will be able to retrieve the link with the new security token.
 
 
-## 9. Use at you on risk!
+## 9. Use at you own risk!
 The author of this application does not take any responsiblity for damage of any kind resulting from usage of this application.
