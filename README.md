@@ -22,7 +22,8 @@ Take the link which points to your localhost and contains the security tocken an
 
 Congratulations! Your application is up and running!
 
-#### 5. Place your PDFs in the dir *"files"*
+#### 5. Place your PDFs in the dir *"src/files"*
+Since you cannot push empty folders to git, create a new one. 
 Make sure that you only have PDFs in this folder. There is no exeption handling for errors at the moment. Other file types will throw an error.
 
 #### 6. Run all cells
